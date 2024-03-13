@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>fm-blog</title>
   </head>
-  <link rel="stylesheet" href="/fmCss/fmBlog.css" />
-  <link rel="stylesheet" href="/fmCss/bottom.css" />
-  <link rel="stylesheet" href="/fmCss/ringtone-poll.css" />
-  <link rel="stylesheet" href="/fmCss/footer.css" />
+  <link rel="stylesheet" href="fmBlog.css" />
+  <link rel="stylesheet" href="bottom.css" />
+  <link rel="stylesheet" href="ringtone-poll.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <link rel="stylesheet" href="responsive.css">
+  <script src="script.js"></script>
   <body>
+    
     <div class="main-container">
       <!-- header section  -->
       <div class="header-group">
         <div class="header-inner">
           <div class="header-logo-adv-group">
             <div class="fmblog-logo">
-              <img src="/images/FM-logo.png" alt="" class="fmblog-img" />
+              <img src="FM-logo.png" alt="" class="fmblog-img" />
             </div>
             <div class="adv-heading">Advertisment Space</div>
           </div>
+          <nav class="main">
+            <!-- hamburger menu button  -->
+            <button class="hamburger" id="hamburger">
+              <img src="ham.svg" alt="hamburger menu">
+          </button>
+         
           <div class="nav-bar">
-            <a href="#" class="nav-link active">Home</a>
+            <!-- <a href="#" class="nav-link active">Home</a> -->
+            <a href="#" class="nav-link">Home</a>
             <a href="#" class="nav-link">Presenter</a>
             <a href="#" class="nav-link">Artist</a>
             <a href="#" class="nav-link">Blogs</a>
@@ -35,6 +44,27 @@
             <a href="#" class="nav-link">Downloads</a>
             <a href="#" class="nav-link">Photos</a>
           </div>
+          </nav>
+          <nav class="res-nav">
+          <div class="nav-links">
+
+            
+            <!-- <a href="#" class="nav-link active">Home</a> -->
+            <ul class="nav-flex">
+
+           <li> <a href="#"> Home</a></li>
+           <li> <a href="#"> Presenter</a></li>
+           <li> <a href="#"> Artist</a></li>
+           <li> <a href="#"> Blogs</a></li>
+           <li> <a href="#"> Relationships</a></li>
+           <li> <a href="#"> Events</a></li>
+           <li><a href="#"> contests</a></li>
+           <li> <a href="#"> Schedule</a></li>
+           <li> <a href="#"> Downloads</a></li>
+           <li> <a href="#"> Photos</a></li>
+           </ul>
+           </div>
+          </nav>
         </div>
       </div>
       <div class="mid-section">
@@ -42,7 +72,7 @@
           <div class="mid-left">
             <div class="banner-section">
               <div class="banner-img-grup">
-                <img src="/images/banner-img.png" alt="" class="banner-img" />
+                <img src="banner-img.png" alt="" class="banner-img" />
                 <div class="banner-overlay">
                   <div class="overlay-heading">
                     No one ever promised you an easy life.
@@ -71,7 +101,7 @@
                 <div class="blog-columns">
                   <div class="blog-img-section">
                     <div class="blog-img">
-                      <img src="/images/blog-img.png" alt="" />
+                      <img src="blog-img.png" alt="" />
                     </div>
                   </div>
                   <div class="blog-info">
@@ -88,7 +118,7 @@
                 <div class="blog-columns">
                   <div class="blog-img-section">
                     <div class="blog-img">
-                      <img src="/images/blog-img.png" alt="" />
+                      <img src="blog-img.png" alt="" />
                     </div>
                   </div>
                   <div class="blog-info">
@@ -118,7 +148,7 @@
             <div class="player-section">
               <div class="player-heading">
                 <div class="player-arrow-icon">
-                  <!-- <img src="/images/arrow-icon.png" alt="" /> -->
+                  <img src="arrow-icon.png" alt="" />
                 </div>
                 <div>Now Playing</div>
               </div>
@@ -127,10 +157,7 @@
                   <div class="about-music-artist">
                     <div class="music-img-wrap">
                       <img
-                        src="/images/song-icon.png"
-                        alt=""
-                        class="song-icon"
-                      />
+                        src="song-icon.png"alt=""class="song-icon" />
                     </div>
                     <div class="about-artist">
                       <div class="artist-name">Artist Name Heading</div>
@@ -206,7 +233,7 @@
               <div class="listen-heading">Listen to <span>FM</span>BLOG</div>
               <div class="listen-inner-wrapper">
                 <div class="mike-icon">
-                  <img class="mike-img" src="/images/mike-img.png" alt="" />
+                  <img class="mike-img" src="mike-img.png" alt="" />
                 </div>
                 <div class="about-listen-wrap">
                   “Easy fm is giving you the chance to become a radio presenter
@@ -227,20 +254,21 @@
             <div class="content-tabs-wrapper">
               <div class="heading-wrapper">
                 <div class="heading-arrow">
-                  <img src="/images/arrow-icon.png" alt="" />
+                  <img src="arrow-icon.png" alt="" />
                 </div>
                 <div class="tab-heading">Latest</div>
               </div>
               <div class="album-tabs-wrap">
                 <div class="tabs-buttons">
                   <button class="tab-btn">Showbiz</button>
-                  <button class="tab-btn active-tab-btn">Music</button>
+                  <!-- <button class="tab-btn active-tab-btn">Music</button> -->
+                  <button class="tab-btn">Music</button>
                   <button class="tab-btn">Funny</button>
                 </div>
                 <div class="tabs-content">
                   <div class="tabs-content-card">
                     <div class="tab-img-div">
-                      <img src="/images/news1.png" alt="" class="card-img" />
+                      <img src="news1.png" alt="" class="card-img" />
                     </div>
                     <div class="tab-card-content">
                       Three strikes net rule has been proposed in a front
@@ -248,14 +276,14 @@
                     </div>
                     <div class="tab-card-button-wrap">
                       <div class="button-arrow">
-                        <img src="/images/arrow-icon.png" alt="" />
+                        <img src="arrow-icon.png" alt="" />
                       </div>
                       <button class="tab-card-button">read more</button>
                     </div>
                   </div>
                   <div class="tabs-content-card">
                     <div class="tab-img-div">
-                      <img src="/images/news1.png" alt="" class="card-img" />
+                      <img src="news1.png" alt="" class="card-img" />
                     </div>
                     <div class="tab-card-content">
                       Three strikes net rule has been proposed in a front
@@ -263,14 +291,14 @@
                     </div>
                     <div class="tab-card-button-wrap">
                       <div class="button-arrow">
-                        <img src="/images/arrow-icon.png" alt="" />
+                        <img src="arrow-icon.png" alt="" />
                       </div>
                       <button class="tab-card-button">read more</button>
                     </div>
                   </div>
                   <div class="tabs-content-card">
                     <div class="tab-img-div">
-                      <img src="/images/news1.png" alt="" class="card-img" />
+                      <img src="news1.png" alt="" class="card-img" />
                     </div>
                     <div class="tab-card-content">
                       Three strikes net rule has been proposed in a front
@@ -278,14 +306,14 @@
                     </div>
                     <div class="tab-card-button-wrap">
                       <div class="button-arrow">
-                        <img src="/images/arrow-icon.png" alt="" />
+                        <img src="arrow-icon.png" alt="" />
                       </div>
                       <button class="tab-card-button">read more</button>
                     </div>
                   </div>
                   <div class="tabs-content-card">
                     <div class="tab-img-div">
-                      <img src="/images/news1.png" alt="" class="card-img" />
+                      <img src="news1.png" alt="" class="card-img" />
                     </div>
                     <div class="tab-card-content">
                       Three strikes net rule has been proposed in a front
@@ -293,14 +321,14 @@
                     </div>
                     <div class="tab-card-button-wrap">
                       <div class="button-arrow">
-                        <img src="/images/arrow-icon.png" alt="" />
+                        <img src="arrow-icon.png" alt="" />
                       </div>
                       <button class="tab-card-button">read more</button>
                     </div>
                   </div>
                   <div class="tabs-content-card">
                     <div class="tab-img-div">
-                      <img src="/images/news1.png" alt="" class="card-img" />
+                      <img src="news1.png" alt="" class="card-img" />
                     </div>
                     <div class="tab-card-content">
                       Three strikes net rule has been proposed in a front
@@ -308,14 +336,14 @@
                     </div>
                     <div class="tab-card-button-wrap">
                       <div class="button-arrow">
-                        <img src="/images/arrow-icon.png" alt="" />
+                        <img src="arrow-icon.png" alt="" />
                       </div>
                       <button class="tab-card-button">read more</button>
                     </div>
                   </div>
                   <div class="tabs-content-card">
                     <div class="tab-img-div">
-                      <img src="/images/news1.png" alt="" class="card-img" />
+                      <img src="news1.png" alt="" class="card-img" />
                     </div>
                     <div class="tab-card-content">
                       Three strikes net rule has been proposed in a front
@@ -323,7 +351,7 @@
                     </div>
                     <div class="tab-card-button-wrap">
                       <div class="button-arrow">
-                        <img src="/images/arrow-icon.png" alt="" />
+                        <img src="arrow-icon.png" alt="" />
                       </div>
                       <button class="tab-card-button">read more</button>
                     </div>
@@ -332,7 +360,7 @@
               </div>
             </div>
             <div class="horizontal-separtor">
-              <img src="/images/drop-shadow-img.png" alt="" />
+              <img src="drop-shadow-img.png" alt="" />
             </div>
             <div class="adv-banner-wrap">
               <div class="adv-banner">
@@ -347,12 +375,12 @@
               </div>
             </div>
             <div class="horizontal-separtor">
-              <img src="/images/drop-shadow-img.png" alt="" />
+              <img src="drop-shadow-img.png" alt="" />
             </div>
             <div class="presenter-section">
               <div class="heading-wrapper">
                 <div class="heading-arrow">
-                  <img src="/images/arrow-icon.png" alt="" />
+                  <img src="arrow-icon.png" alt="" />
                 </div>
                 <div class="tab-heading">
                   Presenter <span> of the Month</span>
@@ -362,7 +390,7 @@
                 <div class="presenter-wrapper-inner">
                   <div class="presenter-image">
                     <img
-                      src="/images/presenter-img.png"
+                      src="presenter-img.png"
                       alt=""
                       class="present-img"
                     />
@@ -394,7 +422,7 @@
               <div class="ringtone-wrap">
                 <div class="heading-wrapper">
                   <div class="heading-arrow">
-                    <img src="/images/arrow-icon.png" alt="" />
+                    <img src="arrow-icon.png" alt="" />
                   </div>
                   <div class="tab-heading">Get <span>Ringtones</span></div>
                 </div>
@@ -512,7 +540,7 @@
                   </div>
                   <div class="view-all-button">
                     <div class="button-arrow">
-                      <img src="/images/arrow-icon.png" alt="" />
+                      <img src="arrow-icon.png" alt="" />
                     </div>
                     <a href="#" class="view-all">View All</a>
                   </div>
@@ -521,7 +549,7 @@
               <div class="poll-ques-wrap">
                 <div class="heading-wrapper">
                   <div class="heading-arrow">
-                    <img src="/images/arrow-icon.png" alt="" />
+                    <img src="arrow-icon.png" alt="" />
                   </div>
                   <div class="tab-heading">Poll <span>Question</span></div>
                 </div>
@@ -573,7 +601,7 @@
                   </div>
                   <div class="poll-submit-button">
                     <div class="button-arrow">
-                      <img src="/images/arrow-icon.png" alt="" />
+                      <img src="arrow-icon.png" alt="" />
                     </div>
                     <button class="poll-submit">Submit</button>
                     <a href="#" class="previous-poll"> Previous Polls</a>
@@ -586,7 +614,7 @@
             <div class="large-adv-banner">
               <div class="adv-label">advertisment</div>
               <div class="large-banner-img">
-                <img class="large-img" src="/images/large-banner.png" alt="" />
+                <img class="large-img" src="large-banner.png" alt="" />
                 <div class="adv-overlay-1"><span>Advertisment</span></div>
                 <div class="adv-overlay-2"><span>Space 300 * 250</span></div>
               </div>
@@ -622,7 +650,7 @@
                     <div class="liked-user-profile">
                       <div class="like-user-img">
                         <img
-                          src="/images/presenter-img.png"
+                          src="presenter-img.png"
                           alt=""
                           class="user-img"
                         />
@@ -632,7 +660,7 @@
                     <div class="liked-user-profile">
                       <div class="like-user-img">
                         <img
-                          src="/images/presenter-img.png"
+                          src="presenter-img.png"
                           alt=""
                           class="user-img"
                         />
@@ -642,7 +670,7 @@
                     <div class="liked-user-profile">
                       <div class="like-user-img">
                         <img
-                          src="/images/presenter-img.png"
+                          src="presenter-img.png"
                           alt=""
                           class="user-img"
                         />
@@ -652,7 +680,7 @@
                     <div class="liked-user-profile">
                       <div class="like-user-img">
                         <img
-                          src="/images/presenter-img.png"
+                          src="presenter-img.png"
                           alt=""
                           class="user-img"
                         />
@@ -662,7 +690,7 @@
                     <div class="liked-user-profile">
                       <div class="like-user-img">
                         <img
-                          src="/images/presenter-img.png"
+                          src="presenter-img.png"
                           alt=""
                           class="user-img"
                         />
@@ -672,7 +700,7 @@
                     <div class="liked-user-profile">
                       <div class="like-user-img">
                         <img
-                          src="/images/presenter-img.png"
+                          src="presenter-img.png"
                           alt=""
                           class="user-img"
                         />
@@ -682,7 +710,7 @@
                     <div class="liked-user-profile">
                       <div class="like-user-img">
                         <img
-                          src="/images/presenter-img.png"
+                          src="presenter-img.png"
                           alt=""
                           class="user-img"
                         />
@@ -692,7 +720,7 @@
                     <div class="liked-user-profile">
                       <div class="like-user-img">
                         <img
-                          src="/images/presenter-img.png"
+                          src="presenter-img.png"
                           alt=""
                           class="user-img"
                         />
@@ -705,7 +733,7 @@
             </div>
             <div class="twitter-blog-wrapper">
               <div class="twitter-logo">
-                <img src="/images/twitter-logo.png" alt="" />
+                <img src="twitter-logo.png" alt="" />
               </div>
               <div class="twitter-info-links">
                 Mobile Boilerplate: a best practice baseline for your mobile Web
@@ -716,7 +744,7 @@
                 http://dropdo.com
               </div>
               <div class="follow-us-logo">
-                <img src="/images/follow-us-logo.png" alt="" />
+                <img src="follow-us-logo.png" alt="" />
               </div>
             </div>
           </div>
@@ -749,7 +777,6 @@
             </div>
             <div class="created-by">
               <div class="psd-img"><img src="" alt="" /></div>
-              <div class="freebies">created by psdfreebies.com</div>
             </div>
           </div>
         </div>

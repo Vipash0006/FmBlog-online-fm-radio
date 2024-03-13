@@ -31,10 +31,11 @@ body {
 
 }
 .header-inner{
+    height: auto;
     max-width: 1005px;
     width: 100%;
     position: absolute;
-    z-index: 999;
+    z-index: 9990;
     top: -40px;
     padding: 0 20px;
     border-radius: 15px;
@@ -45,6 +46,7 @@ body {
     flex-direction: column;
     justify-content: end;
     gap: 10px;
+
 }
 .header-logo-adv-group{
     display: flex;
@@ -78,6 +80,7 @@ body {
     justify-content: space-between;
     bottom: -3px;
     position: relative;
+    z-index: 999;
 }
 .nav-link{
     padding:  13px 10px;
@@ -89,7 +92,7 @@ body {
 }
 .nav-link:hover{
     border-radius: 5px;
-    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    box-shadow: inset 1px 1.732px 0px rgba(86, 3, 3, 0.58);
     background-color: #0087c2;
     color: white;
 }
@@ -213,9 +216,7 @@ body {
     display: flex;
     gap: 10px;
 }
-.blog-image-section{
 
-}
 .blog-img{
     width: 52px;
     height: 52px;
@@ -333,9 +334,7 @@ body {
     height: 100%;
     border-radius: 5px;
 }
-.about-artist{
 
-}
 .artist-name{
     font-size: 11px;
     color: #00587e;
@@ -489,4 +488,19 @@ body {
     color: #ffffff;
     font-family: "Tahoma";
     word-break: break-all;
+}
+.hamburger{
+    display: none;
+}
+.res-nav{
+    display: none;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: rgb(255, 0, 0); /* Change color to your desired color */
+    z-index: 10000;
+    flex-direction: row;
+}
+.nav-links ul {
+    list-style: none;
 }

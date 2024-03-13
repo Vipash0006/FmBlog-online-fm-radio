@@ -1,0 +1,305 @@
+@media only screen and (max-width:425px) {
+    .res-nav {
+        display: flex;
+        justify-content: flex-end;
+        /* justify-content: space-between; */
+        align-items: center;
+        width: 90%;
+        height: 10%;
+        background-color: rgb(228 228 228);
+        color: white;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .nav-flex {
+
+        /* border: 1px solid red; */
+        display: flex;
+        gap: 30px;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        display: none;
+        z-index: 9999;
+        /* Ensure it appears above other elements */
+    }
+
+    /* Show navigation links when the "active" class is present */
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        /* Adjust as needed */
+        right: 0;
+        background-color: #f9f9f9;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .nav-links.active ul {
+        padding: 0;
+    }
+
+    .nav-links.active ul li {
+        padding: 10px;
+    }
+
+    .nav-links ul li a {
+        text-decoration: none;
+        color: #333;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+    }
+
+    /* Style for vertical layout */
+    .nav-links.vertical ul {
+        flex-direction: row;
+        /* Ensure vertical layout */
+        align-items: center;
+        /* Center the items vertically */
+    }
+
+    .hamburger {
+        display: block;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    .hamburger img {
+        width: 40px;
+        height: auto;
+
+    }
+
+    .nav-links ul li {
+        flex-direction: row;
+    }
+
+    .res-nav {
+        display: flex;
+        flex-direction: row;
+        z-index: 100000;
+    }
+
+    .player-inner,
+    .player-heading,
+    .mike-img,
+    .mike-icon,
+    .listen-heading,
+    .music-player,
+    .player-section,
+    .large-img,
+    .adv-overlay-1,
+    .adv-overlay-2,
+    .bottom-right {
+        display: none;
+    }
+    
+        .header-inner{
+            height: auto;
+            width: 700px;
+           
+            
+            top: -20px;
+            left: 3px;
+            border-radius: 15px;
+            box-shadow: inset -0.518px -1.932px 0px rgba(255,255,255,0.75);
+            background-image: linear-gradient(0deg, #d5d5d5 0%, #ffffff 14%, #d5d5d5 60%, #ffffff 100%);
+            border: 1px solid #c1c1c1;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            gap: 10px;
+        
+        }
+        .banner-img{
+            width: 480px;
+            
+            object-fit: none;
+            object-position: left -380px;
+            border-radius: 15px;
+        }
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+    body {
+      -moz-transform: scale(0.3);
+      -webkit-transform: scale(0.3);
+      -o-transform: scale(0.3);
+      transform: scale(0.3);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 1460px) {
+    body {
+      zoom: 105%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1360px) and (max-width: 1460px) {
+    body {
+      zoom: 100%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 1260px) and (max-width: 1360px) {
+    body {
+      zoom: 95%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 1160px) and (max-width: 1260px) {
+    body {
+      zoom: 90%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1060px) and (max-width: 1160px) {
+    body {
+      zoom: 85%;
+      -moz-transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 960px) and (max-width: 1060px) {
+    body {
+      zoom: 73%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 860px) and (max-width: 960px) {
+    body {
+      zoom: 66%;
+      -moz-transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 760px) and (max-width: 860px) {
+    body {
+      zoom: 59%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 660px) and (max-width: 760px) {
+    body {
+      zoom: 52%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 500px) and (max-width: 660px) {
+    body {
+      zoom: 50%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 500px) {
+    body {
+      zoom: 27%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
