@@ -5,10 +5,11 @@
     justify-content: center;
 }
 .bottom-inner{
-    width: 1005px;
+    max-width: 1005px;
     display: flex;
     gap: 10px;
     z-index: 9;
+    justify-content: center;
 }
 .bottom-left{
     width: 651px;
@@ -19,7 +20,7 @@
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
-    margin-top: -90px;
+    margin-top: -35px;
     z-index: 9;
 }
 
@@ -155,6 +156,7 @@
    display: flex;
    gap: 30px;
    padding:  0px 10px;
+   justify-content: space-around;
 }
 .adv-banner{
     flex: 1;
@@ -164,6 +166,7 @@
     align-items: center;
     justify-content: center;
     height: 250px;
+    width: 250px;
     filter: drop-shadow(0.5px 0.866px 0px #ffffff);
     box-shadow: inset 1px 1.732px 2px rgba(0,0,0,0.24);
     background-color: #e4e4e4;

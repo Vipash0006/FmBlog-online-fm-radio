@@ -31,7 +31,7 @@ body {
 
 }
 .header-inner{
-    height: auto;
+    height: 187px;
     max-width: 1005px;
     width: 100%;
     position: absolute;
@@ -61,6 +61,7 @@ body {
 .fmblog-img{
     width: 100%;
     height: 100%;
+    min-width: 130px;
 }
 .adv-heading{
     flex: 1;
@@ -105,7 +106,7 @@ body {
 }
 .mid-section{
     width: 100%;
-    height: 525px;
+    /* height: 525px; */
     background-color:#006896;
     position: relative;
     display: flex;
@@ -131,7 +132,7 @@ body {
     display: flex;
 }
 .mid-left{
-    padding-right: 10px;
+    /* padding-right: 10px; */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -139,6 +140,10 @@ body {
 .banner-section{
     border-radius: 15px;
     background-color: #0087c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .banner-img-grup{
     width: 651px;
@@ -493,6 +498,9 @@ body {
     display: none;
 }
 .res-nav{
+    display: none;
+}
+.nav-links{
     display: none;
 }
 .nav-links ul li a {
